@@ -1,0 +1,28 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+
+  /* burası kesinlikle değişecek.öylesine yaptım */
+  .navbar-logo-margin {
+    margin-right: 600px; 
+  }
+  .navbar-search-button-margin {
+    margin-right: 510px; 
+  }
+  /* burası kesinlikle değişecek.öylesine yaptım */

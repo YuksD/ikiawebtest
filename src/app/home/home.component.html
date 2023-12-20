@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="col-12 d-flex gallery-container">
+    <p-galleria
+      [value]="itemLis"
+      [numVisible]="5"
+      [circular]="true"
+      [showItemNavigators]="true"
+      [showThumbnails]="false"
+      [responsiveOptions]="responsiveOptions"
+      [containerStyle]="{ 'max-width': '400px' }"
+      [(activeIndex)]="activeIndex"
+    >
+      <ng-template pTemplate="item" let-item>
+        <img [src]="item.Url" style="width: 100%; display: block" />
+      </ng-template>
+    </p-galleria>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+/* Resimler için yükseklik sınırlaması ve orantılı boyutlandırma */
+.gallery-container img {
+  max-height: 400px;
+  object-fit: cover;
+  background-color: bisque;
+}
+
+/* Galeri konteynerini merkeze hizalama */
+.gallery-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: aqua;
+}
+
+.p-galleria .p-galleria-item-nav {
+  color: #007fff !important; /* İstediğiniz renk koduna değiştirin */
+}
