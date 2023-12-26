@@ -1,21 +1,51 @@
-/* Resimler için yükseklik sınırlaması ve orantılı boyutlandırma */
 .gallery-container img {
-  max-height: 400px;
+  max-height: 600px;
   object-fit: cover;
-  background-color: bisque;
 }
 
-/* Galeri konteynerini merkeze hizalama */
 .gallery-container {
-  height: 400px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container {
-  background-color: aqua;
+
+::ng-deep .p-galleria .p-galleria-item-nav {
+  background: transparent;
+  color: #34a2dd !important;
+  width: 4rem;
+  height: 4rem;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  margin: 0 0.5rem;
 }
 
-.p-galleria .p-galleria-item-nav {
-  color: #007fff !important; /* İstediğiniz renk koduna değiştirin */
+.image-text-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.image-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.p-galleria-item-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+
+.background-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/hop2.png");
 }

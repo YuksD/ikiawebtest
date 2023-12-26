@@ -7,12 +7,43 @@
       [showItemNavigators]="true"
       [showThumbnails]="false"
       [responsiveOptions]="responsiveOptions"
-      [containerStyle]="{ 'max-width': '400px' }"
       [(activeIndex)]="activeIndex"
     >
       <ng-template pTemplate="item" let-item>
-        <img [src]="item.Url" style="width: 100%; display: block" />
+        <div class="image-text-container">
+          <img [src]="item.Url" style="width: 60%; display: inline-block" />
+          <div class="image-text fw-600">
+            {{ item.text }}
+          </div>
+        </div>
       </ng-template>
     </p-galleria>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="col">
+      <img src="assets/dialogo.png" alt="Logo" height="100px" />
+    </div>
+    <div class="col">
+      <p>E-Fatura - Teklif Yönetimi - Stok/Depo Yönetimi - B2B/B2C</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="assets/oduyohdlogo.png" alt="Logo" height="100px" />
+    </div>
+    <div class="col">
+      <p>E-Tahsilat - Ödüyo Ekstre</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="assets/netolojihdlogo.png" alt="Logo" height="100px" />
+    </div>
+    <div class="col">
+      <p>E-Flow BPM - E-Flow DMS</p>
+    </div>
   </div>
 </div>

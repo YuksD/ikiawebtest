@@ -31,10 +31,21 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.itemLis.push(
-      { Id: 1, Url: '/assets/oduyohdlogo.png' },
-      { Id: 2, Url: '/assets/netolojihdlogo.png' },
-      { Id: 3, Url: '/assets/ikia_logo_koyu.png' },
-      { Id: 4, Url: '/assets/big_tree_transparent.png' }
+      {
+        Id: 1,
+        Url: '/assets/tree_yeni.png',
+        text: '98 YILI AŞKIN TECRÜBEMİZLE KALİTELİ HİZMET VERMEYE DEVAM EDİYORUZ',
+      },
+      {
+        Id: 2,
+        Url: '/assets/erp_yeni.png',
+        text: 'ERP ÇÖZÜMLERİ İLE İŞİNİZE VERİM KATIN',
+      },
+      {
+        Id: 3,
+        Url: '/assets/hedef.png',
+        text: 'KALİTELİ - HIZLI - ÇÖZÜM ODAKLI',
+      }
     );
 
     this.startAutoSlide();

@@ -1,7 +1,11 @@
+.navbar-logo-margin {
+  margin-right: 150px;
+}
+.navbar-margin {
+  margin-right: 150px;
+}
 
-  .navbar-logo-margin {
-    margin-right: 100px; 
-  }
-  .navbar-search-button-margin {
-    margin-right: 110px; 
-  }
+.navbar-content-margin {
+  margin-right: 10px;
+  margin-left: 10px;
+}
